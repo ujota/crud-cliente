@@ -1,19 +1,43 @@
-table{
-    margin-left: 20px;
-    margin-top: 1%;
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-bottom: 20px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: block;
+    flex-direction: row;
+    margin-left: 150px;
+}
+.tab{
+    background-color: white;
+}
+.tab th{
+    background-color: orangered;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.tab td{
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
     text-align: center;
-    font-size: small;
-    border-spacing: 1;
+    padding-left: 20px;
 }
-th{
-    background-color: green;
-    color: aliceblue;
+.container table{
+    margin-top: 20px;
+    
 }
-th, td{
-    text-transform: uppercase;
-    border: 1px solid black;
-    padding: 10px 20px;
-}
-td{
-    background-color: azure;
+.container table button{
+    border-color: blue ;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left:180px;
+    width: 100px;
 }

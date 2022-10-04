@@ -17,6 +17,7 @@ formulario.addEventListener("submit", function(event){
     const telefone_cliente = telefone.value;
     const cpf_cliente = cpf.value;
     const data_cliente = data_nascimento.value;
+    let dataStrig = new Date(data_cliente);
 	console.log(data_cliente);
 	
     fetch('http://localhost:8080/cliente',{
@@ -29,7 +30,7 @@ formulario.addEventListener("submit", function(event){
             "email" : email_clinete,
             "telefone": telefone_cliente,
             "cpf" : cpf_cliente,
-            "dataNascimento" : data_cliente,
+            "dataNascimento" : dataStrig,
         })
     })
     .then(querySet =>{
