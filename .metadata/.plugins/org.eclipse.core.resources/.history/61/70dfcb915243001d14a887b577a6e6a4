@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UNASP Front-end</title>
+    <link rel="stylesheet" href="../css/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+        <div style="height: 60px; width: 100%; background-color: #f34d25;"><img src="https://scontent.fcgh33-1.fna.fbcdn.net/v/t39.30808-6/310270133_1994970777379379_5869388485668170892_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=a3Sxo6Caae0AX_0B_jd&_nc_ht=scontent.fcgh33-1.fna&oh=00_AT9_QMu9TszhoIIDzcE3sVCkBfWkL1WavPWep9wUXO9WaQ&oe=633F9862" alt="" style="width: 50px; margin-top: 4px; margin-left:10px ;"></div>
+    </header>
+    <main class="container" style="margin-top: 30px;" >
+        <h2 style="text-align: center; text-transform: uppercase;">Cadastro de Cliente</h2>
+        <form id="formCadastroCliente">
+          <table align="center" style="background-color: rgb(180, 178, 178); border-radius: 15px ; width: 600px;">
+            <tr>
+              <td>
+                <div class="mb-3" style="padding-left:20px ;">
+                <label for="inputNome" class="form-label" style="margin-top: 35px;">Nome</label>
+                <input type="text" class="form-control" id="inputNome" style="width: 100%;">
+                </div>
+              </td>
+              <td style="width:300px; padding-left:20px ;">
+                <div class="mb-3" style="margin-top: 35px; padding-right: 30px;">
+                  <label for="inputEmail" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" style="width: 100%;">
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="mb-3" style="padding-left:20px;">
+                  <label for="inputTelefone" class="form-label">Telefone</label>
+                  <input type="text" class="form-control" id="inputTelefone" style="width: 100%;">
+                </div>
+              </td>
+              <td style="width:300px; padding-right:30px; padding-left: 20px;">
+                <div class="mb-3">
+                  <label for="inputCPF" class="form-label">CPF</label>
+                  <input type="text" class="form-control" id="inputCpf" style="width: 100%;">
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="mb-3" style="margin-left: 20px;">
+                  <label for="inputDataNascimento" class="form-label">Data de Nascimento</label>
+                  <input type="date" class="form-control" id="inputDataNascimento" style="width: 70%;">
+                </div>
+              </td>
+              <td>
+                <button type="submit" class="btn btn-primary" style="margin-left: 65%;">Enviar</button>
+              </td>
+              <td>
+              	<button tupe="submit"  class="btn btn-primary" style="margin-left: 65%;">Pesquisar</button>
+              </td>
+            </tr>
+          </table>
+          </form>
+    </main>
+  </body>
+    <script src="../scripts/cadastro.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</html>

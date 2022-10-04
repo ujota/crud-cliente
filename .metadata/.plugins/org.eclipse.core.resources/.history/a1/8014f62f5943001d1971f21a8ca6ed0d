@@ -1,0 +1,22 @@
+var myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
+
+var raw = JSON.stringify({
+  "nome": "João Pedro",
+  "email": "joao.silveerio@gmail.com",
+  "cpf": "45495488820",
+ 
+});
+
+var requestOptions = {
+  method: 'DELETE',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
+
+fetch("localhost:8080/cliente", requestOptions)
+  .then(response => {
+	
+})
+  .catch(error => console.log('error', error));

@@ -1,8 +1,9 @@
 table{
-    margin-left: 60px;
+    margin-left: 20px;
+    margin-top: 1%;
     text-align: center;
-    border-collapse: collapse;
-    border-spacing: 0;
+    font-size: small;
+    border-spacing: 1;
 }
 th{
     background-color: green;
