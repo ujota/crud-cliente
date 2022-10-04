@@ -11,26 +11,25 @@ header{
     background: white;
     display: block;
     flex-direction: row;
-    margin-left: 150px;
+    margin-left: 80px;
 }
 .tab{
     background-color: white;
 }
 .tab th{
+    width: 180px;
     background-color: orangered;
-    padding: 5px;
+    padding: 10px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    text-transform: uppercase;
 }
 .tab td{
     padding-bottom: 20px;
     border-bottom: 1px solid black;
     text-align: center;
     padding-left: 20px;
-}
-.container table{
-    margin-top: 20px;
-    
+    border: 1px solid gray;
 }
 .container table button{
     border-color: blue ;
@@ -38,6 +37,6 @@ header{
     color: white;
     padding: 5px;
     border-radius: 15px;
-    margin-left:180px;
+    margin-left:255px;
     width: 100px;
 }
